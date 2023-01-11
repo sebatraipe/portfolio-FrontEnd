@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <h1>Title</h1>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #00358e;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="" width="80%">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active fst-italic" aria-current="page" href="#" style="color: white; font-size: large;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Locación</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-dark h5" href="" target="blank">
+                                <i class="bi bi-github" style="font-size: 1.5rem; color: white;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-dark h5" href="" target="blank">
+                                <i class="bi bi-facebook" style="font-size: 1.5rem; color: white;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-dark h5" href="" target="blank">
+                                <i class="bi bi-instagram" style="font-size: 1.5rem; color: white;";></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-dark h5" href="" target="blank">
+                                <i class="bi bi-box-arrow-in-right" style="font-size: 1.7rem; color: white;" ;></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="p-6 text-center bg-image position-relative" style="
+              background-image: url('assets/software-developer_5.jpg');
+              height: 100vh;
+              width: 100%;
+              background-repeat: no-repeat;
+              background-size: cover;
+            ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.5); height: 100%;">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3 fst-italic" style="font-size: 5rem; color: white;">¡Bienvenidos!</h1>
+                        <h4 class="mb-3 fst-italic" style="font-size: 3rem; color: white;">Traipe Sebastián</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="container py-5">
+            <h2 class="h3 font-weight-bold">Some demo content</h2>
+            <div class="row">
+                <div class="col-lg-10 mb-4">
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                </div>
+                <div class="col-lg-8">
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur <strong
+                            class="font-weight-bold text-dark">adipisicing elit, sed </strong>do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in <strong
+                            class="font-weight-bold text-dark">reprehenderit in voluptate </strong>velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            -->
 </body>
 </html>
