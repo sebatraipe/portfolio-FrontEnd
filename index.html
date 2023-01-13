@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #00358e;">
+        <nav class="navbar navbar-expand-lg nav-color fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/logo.png" alt="" width="80%">
@@ -25,25 +25,46 @@
                 <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link mx-2 active fst-italic" aria-current="page" href="#" style="color: white; font-size: large;">Home</a>
+                            <a class="nav-link mx-2 active fst-italic" aria-current="page" href="#" 
+                                style="color: white; font-size: large;">
+                                Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Acerca de</a>
+                            <a class="nav-link mx-2 fst-italic" href="#acerca-de-mi" 
+                                style="color: white; font-size: large;">
+                                Acerca de
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Experiencia</a>
+                            <a class="nav-link mx-2 fst-italic" href="#experiencia" 
+                                style="color: white; font-size: large;">    
+                                Experiencia
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Educación</a>
+                            <a class="nav-link mx-2 fst-italic" href="#educacion" 
+                                style="color: white; font-size: large;">
+                                Educación
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Skills</a>
+                            <a class="nav-link mx-2 fst-italic" href="#skills" 
+                                style="color: white; font-size: large;">
+                                Skills
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Proyectos</a>
+                            <a class="nav-link mx-2 fst-italic" href="#proyectos" 
+                                style="color: white; font-size: large;">
+                                Proyectos
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2 fst-italic" href="#" style="color: white; font-size: large;">Locación</a>
+                            <a class="nav-link mx-2 fst-italic" href="#locacion" 
+                                style="color: white; font-size: large;">
+                                Locación
+                            </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
@@ -71,46 +92,562 @@
                 </div>
             </div>
         </nav>
-
-        <div class="p-6 text-center bg-image position-relative" style="
-              background-image: url('assets/software-developer_5.jpg');
-              height: 100vh;
-              width: 100%;
-              background-repeat: no-repeat;
-              background-size: cover;
-            ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.5); height: 100%;">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <div class="text-white">
-                        <h1 class="mb-3 fst-italic" style="font-size: 5rem; color: white;">¡Bienvenidos!</h1>
-                        <h4 class="mb-3 fst-italic" style="font-size: 3rem; color: white;">Traipe Sebastián</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--
-        <div class="container py-5">
-            <h2 class="h3 font-weight-bold">Some demo content</h2>
-            <div class="row">
-                <div class="col-lg-10 mb-4">
-                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                </div>
-                <div class="col-lg-8">
-                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur <strong
-                            class="font-weight-bold text-dark">adipisicing elit, sed </strong>do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in <strong
-                            class="font-weight-bold text-dark">reprehenderit in voluptate </strong>velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
-                </div>
+    <header class="masthead text-white text-center" style="padding-top: calc(6rem + 100px);">
+        <div class="container d-flex align-items-center flex-column">
+            <img class="masthead-avatar mb-5" src="assets/avatar.png" alt="user-profile" style="width: 13rem;">
+            <h1 class="masthead-heading text-uppercase mb-0" style="font-family: Georgia, 'Times New Roman', Times, serif;">Traipe Sebastián</h1>
+            <!--
+            <div class="astrodivider">
+                <div class="astrodividermask"></div><span><i>&#10038;</i></span>
             </div>
             -->
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-5">Software Developer - Full Stack - </p>
+        </div>
+    </header>
+    <section>
+
+    </section>
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Acerca de mi section -->
+        <section id="acerca-de-mi" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="margin-top: 100px; 
+                        color: #355c7d;
+                        font-weight: bold;">
+                Acerca de mí
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div>
+                <p class="masthead-subheading font-weight-light mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos magni saepe
+                    voluptas reiciendis consectetur quis, quisquam maiores fugiat vel minima ut atque
+                    doloribus dolores, est in aperiam, deleniti exercitationem.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: #355c7d; font-weight: bold;">
+                Experiencia
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div>
+                <p class="masthead-subheading font-weight-light mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos magni saepe
+                    voluptas reiciendis consectetur quis, quisquam maiores fugiat vel minima ut atque
+                    doloribus dolores, est in aperiam, deleniti exercitationem.
+                </p>
+            </div>
+        </section>
+    
+        <!-- Educacion -->
+        <section id="educacion" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: #355c7d; font-weight: bold;">
+                Educación
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div style="margin-top: 8px;">
+                <p class="masthead-subheading font-weight-light mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos magni saepe
+                    voluptas reiciendis consectetur quis, quisquam maiores fugiat vel minima ut atque
+                    doloribus dolores, est in aperiam, deleniti exercitationem.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Skills -->
+        <section id="skills" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: #355c7d; font-weight: bold;">
+                Skills
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div class="container py-5">
+                <div class="row">            
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">HTML</h2>
+            
+                            <!-- Progress bar 1 -->
+                            <div class="progress mx-auto" data-value='80'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-primary"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-primary"></span>
+                                </span>
+                                <div
+                                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/html-1.png" alt="html-logo" width="60px"; height="60px";>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+            
+                            <!-- Demo info 
+                            <div class="row text-center mt-4">
+                                <div class="col-6 border-right">
+                                    <div class="h4 font-weight-bold mb-0">
+                                        28%
+                                    </div>
+                                    <span class="small text-gray">Last week</span>
+                                </div>
+                                <div class="col-6">
+                                    <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                </div>
+                            </div>
+                            -->
+                            <!-- END -->
+                        </div>
+                    </div>
+            
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">CSS</h2>
+            
+                            <!-- Progress bar 2 -->
+                            <div class="progress mx-auto" data-value='25'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-danger"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-danger"></span>
+                                </span>
+                                <div
+                                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/css-logo.png" alt="css-logo" width="60px"; height="60px";">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+            
+                            <!-- Demo info
+                            <div class="row text-center mt-4">
+                                <div class="col-6 border-right">
+                                    <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                </div>
+                                <div class="col-6">
+                                    <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                </div>
+                            </div>
+                            -->
+                            <!-- END -->
+                        </div>
+                    </div>
+            
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">JavaScript</h2>
+            
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div
+                                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/JavaScript.png" alt="javascript-logo" width="60px" height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+            
+                            <!-- Demo info 
+                            <div class="row text-center mt-4">
+                                <div class="col-6 border-right">
+                                    <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                </div>
+                                <div class="col-6">
+                                    <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                </div>
+                            </div>
+                            -->
+                            <!-- END -->
+                        </div>
+                    </div>
+            
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Angular</h2>
+            
+                            <!-- Progress bar 4 -->
+                            <div class="progress mx-auto" data-value='12'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-warning"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-warning"></span>
+                                </span>
+                                <div
+                                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/AngularJS.png" alt="angula-logo" width="60px"; height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+            
+                            <!-- Demo info 
+                            <div class="row text-center mt-4">
+                                <div class="col-6 border-right">
+                                    <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                </div>
+                                <div class="col-6">
+                                    <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                </div>
+                            </div>
+                            -->
+                            <!-- END -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">React</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/React-logo.png" alt="react-logo" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                <div class="row text-center mt-4">
+                                                    <div class="col-6 border-right">
+                                                        <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                    </div>
+                                                </div>
+                                                -->
+                            <!-- END -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Java</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/java-logo.png" alt="java-logo" width="50px" height="70px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                <div class="row text-center mt-4">
+                                                    <div class="col-6 border-right">
+                                                        <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                    </div>
+                                                </div>
+                                                -->
+                            <!-- END -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Spring Boot</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/Spring-logo.png" alt="javascript-logo" width="60px" height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                <div class="row text-center mt-4">
+                                                    <div class="col-6 border-right">
+                                                        <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                    </div>
+                                                </div>
+                                                -->
+                            <!-- END -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">PHP</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/PHP-logo.png" alt="javascript-logo" width="90px" height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                <div class="row text-center mt-4">
+                                                    <div class="col-6 border-right">
+                                                        <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                    </div>
+                                                </div>
+                                                -->
+                            <!-- END -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Codeigniter</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/codeigniter-logo.png" alt="javascript-logo" width="60px" height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                <div class="row text-center mt-4">
+                                                    <div class="col-6 border-right">
+                                                        <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                    </div>
+                                                </div>
+                                                -->
+                            <!-- END -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Bootstrap</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/Bootstrap_logo.png" alt="bootstrap-logo" width="70px" height="65px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                                    <div class="row text-center mt-4">
+                                                                        <div class="col-6 border-right">
+                                                                            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    -->
+                            <!-- END -->
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Github</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/github-logo.png" alt="github-logo" width="60px" height="60px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                                    <div class="row text-center mt-4">
+                                                                        <div class="col-6 border-right">
+                                                                            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    -->
+                            <!-- END -->
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                            <h2 class="h6 font-weight-bold text-center mb-4">Gitlab</h2>
+                    
+                            <!-- Progress bar 3 -->
+                            <div class="progress mx-auto" data-value='76'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-success"></span>
+                                </span>
+                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">
+                                        <img src="assets/gitlab-logo.png" alt="gitlab-logo" width="100px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END -->
+                    
+                            <!-- Demo info 
+                                                                                                        <div class="row text-center mt-4">
+                                                                                                            <div class="col-6 border-right">
+                                                                                                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                                                                                                            </div>
+                                                                                                            <div class="col-6">
+                                                                                                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        -->
+                            <!-- END -->
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>      
+        </section>
+        
+        <!-- Proyectos -->
+        <section id="proyectos" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: #355c7d; font-weight: bold;">
+                Proyectos
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div style="margin-top: 8px;">
+                <p class="masthead-subheading font-weight-light mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos magni saepe
+                    voluptas reiciendis consectetur quis, quisquam maiores fugiat vel minima ut atque
+                    doloribus dolores, est in aperiam, deleniti exercitationem.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Locacion -->
+        <section id="locacion" class="d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: #355c7d; font-weight: bold;">
+                Locación
+            </h1>
+            <div class="divider-custom divider-light" style="margin-top: 8px;">
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+                <div class="divider-custom-icon"><i class="bi bi-star-fill" style="color: #355c7d;"></i></div>
+                <div class="divider-custom-line" style="background-color: #355c7d;"></div>
+            </div>
+            <div style="margin-top: 8px;">
+                <p class="masthead-subheading font-weight-light mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos magni saepe
+                    voluptas reiciendis consectetur quis, quisquam maiores fugiat vel minima ut atque
+                    doloribus dolores, est in aperiam, deleniti exercitationem.
+                </p>
+            </div>
+        </section>
+    </div>
+    <!-- Footer-->
+    <footer class="text-center">
+        <div class="copyright py-4 text-center text-white">
+            <div class=""><small>Copyright &copy; Traipe Sebastián 2023</small></div>
+        </div>
+    </footer>
 </body>
 </html>
